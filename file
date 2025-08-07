@@ -1,0 +1,20 @@
+Upload the script to your EC2 instance (using scp or AWS console).
+
+SSH into your EC2 instance.
+
+Run these commands:
+
+bash
+Copy
+Edit
+chmod +x setup-git-github.sh
+./setup-git-github.sh
+Follow the prompts to enter:
+
+GitHub username
+
+GitHub email
+
+GitHub Personal Access Token (PAT)
+
+Repository URL
